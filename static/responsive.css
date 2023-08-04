@@ -1,0 +1,144 @@
+@media (max-width: 1120px) {
+  .team_section .team_container .box.b-3 {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .hero_area {
+    height: auto;
+  }
+
+  .navbar-brand {
+    margin-left: 0;
+  }
+
+  .slider_section {
+    padding: 45px 0 175px 0;
+  }
+
+  .footer_bg {
+    padding-top: 125px;
+  }
+
+  /* 
+  .quote_btn-container {
+    display: none;
+  } */
+  .quote_btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote_btn-container a {
+    display: none;
+  }
+
+  .custom_nav-container .nav_search-btn {
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+
+
+  .slider_section .detail_box {
+    text-align: center;
+  }
+
+  .slider_section {
+    padding: 45px 0 200px 0;
+  }
+
+  .slider_section .img-box {
+    margin-top: 45px;
+  }
+
+  .slider_section .carousel_btn-container {
+    bottom: 11%;
+  }
+
+  .about_section .row {
+    flex-direction: column-reverse;
+  }
+
+  .about_section .detail-box {
+    margin-top: 45px;
+  }
+
+  .about_section .img-box {
+    margin-top: -115px;
+  }
+
+  .work_section .img-box {
+    margin-top: 25px;
+  }
+
+  .work_section .btn-box {
+    justify-content: center;
+    margin-top: 35px;
+  }
+
+  .team_section .team_container .box.b-2 {
+    margin-top: 100px;
+  }
+
+  .client_section {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .client_section .heading_container {
+    align-items: center;
+
+  }
+
+  .client_section .box {
+    align-items: center;
+  }
+
+  .client_section .carousel_btn-container {
+    bottom: -100px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .footer_bg {
+    padding-top: 75px;
+  }
+
+  .info_section .row>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .info_section .info_form .social_box {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider_section .detail_box h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {
+  .slider_section .detail_box h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}

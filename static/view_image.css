@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #000000;
+    background-image:
+        linear-gradient(
+        to right, 
+        #2d2d2d, 
+        #4c4c4c,
+        #414c49);
+}
+
+nav {
+    background-image:
+        linear-gradient(
+        to right, 
+        #34343C, 
+        #4c4c4c,
+        #34343C);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+  }
+  
+  .logo{
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  .logo_text
+  {
+      font-family: Montserrat, sans-serif;
+      font-size: 20px;
+      position: absolute;
+      left: 45px;
+      top: 17px;
+      color: #FFFFFF;
+  }
+  
+  /* .link1{
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    left: 175px;
+    top: 22px;
+    color: #FFFFFF;
+  } */
+  
+  .link2{
+    font-family: Montserrat, sans-serif;
+      font-size: 20px;
+      position: absolute;
+      left: 175px;
+      top: 17px;
+      color: #FFFFFF;
+  }
+  
+  .link3{
+    font-family: Montserrat, sans-serif;
+      font-size: 20px;
+      position: absolute;
+      left: 270px;
+      top: 17px;
+      color: #FFFFFF;
+  }
+  
+  .signout{
+    font-family: Montserrat, sans-serif;
+      font-size: 20px;
+      position: absolute;
+      left: 1425px;
+      top: 17px;
+      color: #FFFFFF;
+  }
+  
+  a:link
+  {
+      color: #FFFFFF;
+      background-color: transparent;
+      text-decoration: none;
+  }
+    
+  a:visited
+  {
+      color: #FFFFFF;
+      background-color: transparent;
+      text-decoration: none;
+  }
+    
+  a:hover
+  {
+      color: #43a3c1;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+    
+  a:active
+  {
+      color: #43a3c1;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+  
+
+.container{
+    /* width:100%;
+    min-height: 100vh; */
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.gallery{
+    flex: 200px;
+    margin-left: 135px;
+    margin-top: 40px;
+}
+.gallery img{
+    width:400px;
+    margin: 10px;
+    border: solid 5px white;
+}

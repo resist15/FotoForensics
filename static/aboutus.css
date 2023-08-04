@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background-image: linear-gradient(to right,
+              rgb(110, 250, 255),
+              rgb(121, 91, 255));; */
+    background-color: #000000;
+    background-image:
+        linear-gradient(
+        to right, 
+        #2d2d2d, 
+        #4c4c4c,
+        #414c49);    
+  }
+
+nav {
+    background-image:
+        linear-gradient(
+        to right, 
+        #34343C, 
+        #4c4c4c,
+        #34343C);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.logo{
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.logo_text
+{
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 45px;
+    top: 17px;
+    color: #FFFFFF;
+}
+
+.link2{
+font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 175px;
+    top: 17px;
+    color: #FFFFFF;
+}
+
+.link3{
+font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 265px;
+    top: 17px;
+    color: #FFFFFF;
+}
+
+.signout{
+font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 1425px;
+    top: 17px;
+    color: #FFFFFF;
+}
+
+a:link
+{
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #43a3c1;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active
+{
+    color: #43a3c1;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.main{
+    background-color:#4c4c4c;
+    margin:80px 150px 0px 150px;
+    padding: 50px;
+    border-radius: 20px;
+    border: solid 2px #FFFFFF;
+}
+
+h1{
+    color: #43a3c1;
+    font-family: Montserrat;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #FFFFFF;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 18px;
+    
+}
+
+li{
+    color: #FFFFFF;
+    text-align: justify;
+    margin-bottom: 6px;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+hr{
+    width:1200px;
+    margin-bottom: 10px;
+}

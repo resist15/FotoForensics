@@ -1,4 +1,4 @@
-# PixelGuard
+# FotoForensics
 WebApp for Image Tampering Detection using ELA and CNN
 
 # Project Information

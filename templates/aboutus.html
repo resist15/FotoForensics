@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/aboutus.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<body>
+    <nav>
+        <!-- <a href="{{ url_for('index') }}"><img src="{{url_for('static', filename='images/FotoForensics_trans.png')}}" class="logo" alt="Logo"></a>
+        <a href="{{ url_for('index') }}" class = "logo_text" style="color: #43a3c1">FotoForensics</a> -->
+        <img src="{{url_for('static', filename='images/FotoForensics_trans.png')}}" class="logo" alt="Logo">
+        <p class = "logo_text" style="color: #43a3c1">FotoForensics</p>
+        
+        <!-- <a href="view_image.html" class = "link2">My Images</a> -->
+        <a href="{{ url_for('upload_image') }}" class = "link2">Upload</a>
+        
+        <!-- <a href="aboutus.html" class = "link3">About Us</a> -->
+        <a href="{{url_for('show_image')}}" class = "link3">My Images</a>
+        
+        <!-- <a href = "login.html" class = "signout">Sign Out</a> -->
+        <a href = "{{url_for('logout')}}" class = "signout">Sign Out</a>
+    </nav>
+    
+    <div class="main">
+        <h1>Our Mission</h1>
+        <p>Our mission is to provide a powerful and reliable tool to help individuals and businesses detect any tampering or alteration of digital images. 
+            Our goal is to help protect the integrity and authenticity of images and prevent their misuse in today's increasingly digital world.
+            We strive to provide our users with accurate and efficient detection results, using the latest technology and techniques to identify any signs of tampering.
+             We are committed to delivering an intuitive and user-friendly platform that can be used by anyone, regardless of their technical expertise.
+            We wish to empower our users to trust the images they see, and to make informed decisions based on accurate and reliable information.
+        </p>
+        <br>
+        <hr>
+
+        <h1>Our Values</h1>
+        <ul>
+            <li>Accuracy: We value accuracy as the foundation of our webapp, striving to provide reliable and precise detection results to our users.</li>
+            <li>Transparency: We believe in being transparent with our users about our detection methods, the limitations of our technology, and the reasons behind our findings.</li>
+            <li>Accessibility: We are committed to providing an easy-to-use platform that can be accessed by anyone, regardless of their technical expertise.</li>
+            <!-- <li>Reliability: We understand the importance of providing reliable and consistent detection results to our users, and we strive to deliver the same with our webapp.</li>  -->
+        </ul>
+        <br>
+        <hr>
+
+        <h1>About FotoForensics</h1>
+        <p>The team behind this WebApp to help individuals and businesses consists of four members: Sourav Jagtap, Girish Bansode, Anant Borse, Suhas Khilari.
+            The team is currently in their final year of study at Trinity College Of Engineering And Research.</p>
+    </div>
+</body>
+</html>

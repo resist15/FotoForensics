@@ -1,0 +1,190 @@
+body
+{
+    background-color: #000000;
+    background-image:
+        linear-gradient(
+        to right, 
+        #2d2d2d, 
+        #4c4c4c,
+        #414c49);
+}
+
+.logo
+{
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    left: 10px;
+    top: 10px;
+}
+
+.logo_text
+{
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    left: 70px;
+    top: -2px;
+    color: #43a3c1;
+}
+
+.abc
+{
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    left:640px;
+    top:160px;
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    display: inline;
+    color: #FFFFFF;
+}
+
+.error
+{
+    position: absolute;
+    left: 632px;
+    top: 482px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: red;
+}
+
+.user-text
+{
+    width: 300.1px;
+    height: 59.74px;
+    border-radius: 30px;
+    position: absolute;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    left:600px;
+    top:240px;
+    border: none;
+    padding-left: 20px;
+}
+
+.password-text
+{
+    width: 300.1px;
+    height: 59.74px;
+    border-radius: 30px;
+    position: absolute;
+    font-family: Montserrat, sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    left:600px;
+    top:320px;
+    border: none;
+    padding-left: 20px;
+}
+
+.confirm-password-text
+{
+    width: 300.1px;
+    height: 59.74px;
+    border-radius: 30px;
+    position: absolute;
+    font-family: Montserrat, sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    left:600px;
+    top:400px;
+    border: none;
+    padding-left: 20px;
+}
+
+::placeholder {
+    position:relative;
+    left:0px;
+  }
+
+
+.l_button{
+    position: absolute;
+    width: 328px;
+    height: 59.74px;
+    left:600px;
+    top: 480px;
+
+    background: #43a3c1;
+    border-radius: 30px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.l_button:active {
+    background-color: #43a3c1;
+    transform: translateY(2px);
+}
+
+.acc{
+    position: absolute;
+    width: 330.1px;
+    height: 19.91px;
+    left: 635px;
+    top: 545px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+a:link
+{
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited
+{
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover
+{
+    color: #43a3c1;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active
+{
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.error{
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: red;
+    position: relative;
+    left: 585px;
+    top: 110px;
+    width: 330px;
+    text-align: center;
+}

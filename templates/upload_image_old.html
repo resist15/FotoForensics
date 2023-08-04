@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../static/upload_image.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- <style>
+        /* Styles for the navigation bar */
+        nav {
+            /* background-color: #34343C; */
+            background-image:
+            linear-gradient(
+            to right, 
+            #34343C, 
+            #4c4c4c,
+            #34343C);
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 14px;
+            text-decoration: none;
+            font-family: Montserrat, sans-serif;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+            
+        }
+        nav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        
+        nav a.logo {
+            float: left;
+        }
+        nav a.logo img {
+            height: 50px;
+        }
+        nav a.menu {
+            float: right;
+        }
+        nav a.menu i {
+            font-size: 24px;
+        }
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 60px;
+            right: 0;
+            background-color: #555555c7;
+            width: 15%;
+            z-index: 9999;
+        }
+        .mobile-menu a {
+            display: block;
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .mobile-menu a:last-child {
+            border-bottom: none;
+        }
+        .show-mobile-menu {
+            display: block;
+        }    
+        .active { background-color: #000; }
+
+    </style> -->
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav>
+    
+        <!-- <a href="#" class="logo"><img src="logo.png" alt="Logo"> FYP PROJECT </a> -->
+        <a href="#" ><img src="{{url_for('static', filename='images/FotoForensics_trans.png')}}" class="logo" alt="Logo"></a>
+        <p class = "logo_text">FotoForensics</p>
+        
+        <!-- <a href="upload_image.html" class = "link1">Upload</a> -->
+        <a href="view_image.html" class = "link2">My Images</a>
+        <a href="aboutus.html" class = "link3">About Us</a>
+
+
+        <a href = "login.html" class = "signout">Sign Out</a>
+        
+        <!-- <a href="#" class="menu" onclick="showMobileMenu()"><i class="fas fa-bars"></i></a> -->
+        
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#">Log Out</a>
+        </div> 
+    </nav>
+
+    <!-- Main content -->
+    <div class="drag-area">
+        
+        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+        <header>Upload Image</header>
+        <span>OR</span>
+        <button>Browse File</button>
+        <input type="file" hidden>
+    </div>
+    <!-- <script src="upload_image.js"></script> -->
+    <script src="../static/upload_image.js"></script>
+</body>
+</html>
