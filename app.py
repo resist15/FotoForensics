@@ -6,7 +6,7 @@ import os
 np.random.seed(2)
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
-from keras.utils.np_utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 from keras.models import Sequential
 from keras.layers import Dense, Flatten, Conv2D, MaxPool2D, Dropout
 from keras.optimizers import Adam
