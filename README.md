@@ -11,3 +11,9 @@ This project aims to devise a method of detecting tampered images using modern A
 # Contributors
 Made with <3 by Sourav Jagtap, Girish Bansode, Anant Borse, Suhas Khilari
 
+# Execution
+Need Python 3.9
+```
+pip install -r requirements.txt
+```
+
