@@ -50,6 +50,7 @@ nav {
     position: absolute;
     left: 45px;
     top: 17px;
+    padding-right: 3%;
     color: #43a3c1;
 }
 
@@ -67,6 +68,15 @@ nav {
     font-size: 20px;
     position: absolute;
     left: 175px;
+    margin-left: 20px;
+    top: 17px;
+    color: #FFFFFF;
+}
+.link69{
+  font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 420px;
     top: 17px;
     color: #FFFFFF;
 }
@@ -75,7 +85,7 @@ nav {
   font-family: Montserrat, sans-serif;
     font-size: 20px;
     position: absolute;
-    left: 300px;
+    left: 320px;
     top: 17px;
     color: #FFFFFF;
 }
@@ -216,7 +226,7 @@ nav a.menu i {
   font-family: Montserrat, sans-serif;
 }
 .drag-area img{
-  height: 100%;
+  height: 100%;li
   width: 100%;
   object-fit: cover;
   border-radius: 5px;

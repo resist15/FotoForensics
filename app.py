@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for,session, se
 from flask_sqlalchemy import SQLAlchemy
 from keras.models import load_model
 import numpy as np
+import tensorflow as tf
 import os
 np.random.seed(2)
 from sklearn.model_selection import train_test_split
@@ -10,7 +11,7 @@ from tensorflow.keras.utils import to_categorical
 from keras.models import Sequential
 from keras.layers import Dense, Flatten, Conv2D, MaxPool2D, Dropout
 from keras.optimizers import Adam
-from keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import EarlyStopping
 from numpy import loadtxt
 from PIL import Image, ImageChops, ImageEnhance
@@ -177,7 +178,11 @@ def logout():
     session.pop('loggedin', None)
     session.pop('id', None)
     session.pop('username', None)
-    return redirect(url_for('index'))    
+    return redirect(url_for('index')) 
+   
+@app.route('/contactus', methods=['GET','POST'])
+def contact_us():
+    return render_template("contactus.html")
 
 if __name__ == '__main__':
     db.create_all()
